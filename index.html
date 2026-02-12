@@ -23,12 +23,16 @@
           m’intéresse particulièrement au développement logiciel, aux systèmes
           embarqués et aux communications réseau.
         </p>
+      </div>
+      <div class="card">
         <p>
           💼 Je suis un développeur d’applications rigoureux et motivé, orienté
           vers la conception de solutions logicielles efficaces et maintenables.
           Je cherche à approfondir mes compétences en développement logiciel et
           en technologies embarquées.
         </p>
+      </div>
+      <div class="card">
         <p>
           🚀 Je suis passionné par la programmation et la compréhension des
           systèmes informatiques. J’aime résoudre des problèmes concrets et
@@ -39,46 +43,181 @@
 
     <section>
       <h2>Compétences</h2>
-      <div class="skills">
-        <div class="skill">JavaScript</div>
-        <div class="skill">C++ / Arduino</div>
-        <div class="skill">Ruby</div>
-        <div class="skill">Java</div>
-        <div class="skill">HTML / CSS</div>
-        <div class="skill">UDP / TCP</div>
-        <div class="skill">Linux / Debian</div>
-        <div class="skill">Git / GitHub</div>
+
+      <div class="skills-container">
+        <div class="skills-category">
+          <h3 class="frontend">💻 Frontend</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>HTML, CSS</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+
+        <div class="skills-category">
+          <h3 class="backend">⚙ Backend</h3>
+          <ul>
+            <li>PHP (Laravel, Symfony)</li>
+            <li>Node.js (Express.js)</li>
+            <li>Django (Python)</li>
+          </ul>
+        </div>
+
+        <div class="skills-category">
+          <h3 class="mobile">📱 Mobile</h3>
+          <ul>
+            <li>Flutter</li>
+            <li>React Native</li>
+          </ul>
+        </div>
+
+        <div class="skills-category">
+          <h3 class="others">🛠 Autres</h3>
+          <ul>
+            <li>Docker, Git, CI/CD</li>
+            <li>Intégration CMS</li>
+            <li>API tierces</li>
+          </ul>
+        </div>
+
+        <div class="skills-category">
+          <h3 class="database">🗄 Base de données</h3>
+          <ul>
+            <li>MySQL, MongoDB, SQLite</li>
+          </ul>
+        </div>
       </div>
     </section>
 
     <section>
       <h2>Projets</h2>
 
-      <div class="card">
-        <h3>Maison intelligente (Arduino)</h3>
-        <ul>
-          <li>Moteur pas-à-pas avec capteur de distance</li>
-          <li>Système d’alarme (buzzer, LED)</li>
-          <li>Communication série bidirectionnelle</li>
-          <li>Architecture orientée objet</li>
-        </ul>
+      <div class="project-card">
+        <img src="images/image-projet.jpg" alt="Maison intelligente" />
+
+        <div class="project-content">
+          <h3>Maison intelligente – Système embarqué</h3>
+
+          <p>
+            Contrôle d’un moteur pas-à-pas avec capteur de distance, système
+            d’alarme et communication série bidirectionnelle.
+          </p>
+
+          <div class="tags">
+            <span>Arduino</span>
+            <span>C++</span>
+            <span>Systèmes embarqués</span>
+            <span>OOP</span>
+          </div>
+
+          <div class="project-buttons">
+            <a
+              href="https://github.com/Audry-Noupoue/maison_intelligente.git"
+              class="btn-primary"
+              >Voir le projet</a
+            >
+          </div>
+        </div>
       </div>
 
-      <div class="card">
-        <h3>🌐 Serveur UDP en Ruby</h3>
-        <ul>
-          <li>Numérotation gérée côté serveur</li>
-          <li>Échange de données en JSON</li>
-          <li>Gestion multi-clients</li>
-        </ul>
+      <div class="project-card">
+        <img
+          src="images/robot-mission.jpg"
+          alt="Robot autonome suiveur de ligne"
+        />
+
+        <div class="project-content">
+          <h3>Robot Autonome – Mission complète</h3>
+
+          <p>
+            J’ai développé un robot autonome capable de suivre une ligne avec un
+            contrôle PID, détecter et récupérer un colis à l’aide d’un capteur
+            ultrason, effectuer des rotations précises avec gyroscope, puis
+            retourner sur la ligne grâce à une machine à états complète. Le
+            système inclut un mode automatique et un mode manuel via
+            communication BLE.
+          </p>
+
+          <div class="tags">
+            <span>Arduino</span>
+            <span>C++</span>
+            <span>PID</span>
+            <span>Machine à états</span>
+            <span>Gyroscope</span>
+            <span>Ultrason</span>
+            <span>BLE</span>
+            <span>Robotique</span>
+          </div>
+
+          <div class="project-buttons">
+            <a
+              href="https://github.com/Audry-Noupoue/labot_final.git"
+              class="btn-primary"
+              target="_blank"
+            >
+              Voir le code
+            </a>
+          </div>
+        </div>
       </div>
 
-      <div class="card">
-        <h3>🚗 Mini-simulateur de contrôle</h3>
-        <ul>
-          <li>Joystick + écran LCD 16x2</li>
-          <li>Programmation par états et tâches</li>
-        </ul>
+      <div class="project-card">
+        <div class="project-content">
+          <h3>🎁 Page interactive personnalisée</h3>
+
+          <p>
+            Page web interactive permettant à l’utilisateur d’entrer son prénom
+            et d’être redirigé vers une page surprise avec animation dynamique.
+          </p>
+
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <div class="project-buttons">
+            <a
+              href="https://audry-noupoue.github.io/SaintValentin/"
+              class="btn-primary"
+              >Voir le projet</a
+            >
+            <a
+              href="https://github.com/Audry-Noupoue/SaintValentin.git"
+              class="btn-secondary"
+              >Code GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-content">
+          <h3>🗂 Transformateur de fichiers en Ruby</h3>
+
+          <p>
+            Application développée en Ruby permettant de lire, analyser et
+            transformer des fichiers (TXT, CSV ou JSON). Le programme applique
+            différentes règles de modification et génère automatiquement un
+            nouveau fichier formaté.
+          </p>
+
+          <div class="tags">
+            <span>Ruby</span>
+            <span>File I/O</span>
+            <span>Parsing</span>
+            <span>CLI</span>
+          </div>
+
+          <div class="project-buttons">
+            <a
+              href="https://github.com/Audry-Noupoue/Galerie.git"
+              class="btn-primary"
+              >Code GitHub</a
+            >
+          </div>
+        </div>
       </div>
     </section>
 
@@ -95,15 +234,28 @@
     <section>
       <h2>Contact</h2>
       <div class="card">
-        <p>
-          <!-- GitHub : <a href="#">à ajouter</a><br>
-      Courriel : <a href="#">à ajouter</a> -->
-          <li>shawinigan, QC , Canada</li>
-          <li>audrynoupoue062@gmail.com</li>
+        <ul>
+          <li>Shawinigan, QC, Canada</li>
+          <li>
+            <a href="mailto:audrynoupoue062@gmail.com">
+              audrynoupoue062@gmail.com
+            </a>
+          </li>
           <li>☎️ +1 438 872 7690</li>
-        </p>
+          <li>
+            GitHub :
+            <a href="https://github.com/audry-noupoue" target="_blank">
+              github.com/audry-noupoue
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
+    <div class="cv-container">
+      <a href="AUDRY_NOUPOUE.pdf" download class="cv-button">
+        📄 Télécharger mon CV
+      </a>
+    </div>
 
     <footer>© 2026 – Portfolio Audry Noupoue</footer>
   </body>
